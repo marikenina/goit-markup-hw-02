@@ -1,0 +1,98 @@
+:root {
+    --button-color: #2196F3;
+    --color-black: #000000;
+    --color-backgroud: #2F303A;
+    --color-white: #FFFFFF;
+    --color-smogy: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: var(--button-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.web{
+    color:var(--button-color);
+}
+
+.studio {
+    color: var(--color-black);
+}
+
+.header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-nav-link {
+    color: var(--color-smogy);
+    text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--button-color);
+}
+
+.header-nav-link:active {
+    color: var(--color-black);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--button-color)
+}
+
+.header-mail:active {
+    color: var(--color-black);
+}
+
+
+/* MAIN SECTION */
+
+.main-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+    border: none;
+    background: var(--button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero {
+    background: var(--color-backgroud);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
